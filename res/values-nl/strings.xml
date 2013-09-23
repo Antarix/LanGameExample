@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">LanSpelVoorbeeld</string>
+	<string name="menu_name">Je weergave naam</string>
+	<string name="menu_color">Kies een kleur</string>
+	<string name="clients_list">Speler lijst</string>
+
+</resources>

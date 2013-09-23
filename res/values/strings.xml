@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">LanGameExample</string>
+	<string name="menu_name">Your display name</string>
+	<string name="menu_color">Choose Color</string>
+	<string name="clients_list">Player list</string>
+
+</resources>

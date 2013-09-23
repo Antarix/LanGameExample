@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainwindow"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:layout_margin="0dip"
+	android:orientation="vertical"
+	android:padding="0dip" >
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_weight="0.7"
+		android:orientation="vertical"
+		android:paddingLeft="16dip"
+		android:paddingRight="16dip"
+		android:paddingTop="16dip" >
+
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:orientation="horizontal" >
+
+			<TextView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:layout_weight="1"
+				android:gravity="center_horizontal|bottom"
+				android:text="@string/clients_list"
+				android:textAppearance="@android:style/TextAppearance.Medium" />
+
+			<ImageButton
+				android:id="@+id/button_login"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_weight="0"
+				android:contentDescription="@null"
+				android:src="@android:drawable/ic_popup_sync" />
+		</LinearLayout>
+
+		<ListView
+			android:id="@+id/clientlist"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/bg_list"
+			android:divider="@null"
+			android:dividerHeight="0dip"
+			android:fadingEdge="none"
+			android:paddingBottom="2dip"
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			android:paddingTop="2dip"
+			android:scrollbarStyle="outsideInset" >
+		</ListView>
+	</LinearLayout>
+
+	<ListView
+		android:id="@+id/messageswindow"
+		android:layout_width="fill_parent"
+		android:layout_height="0dip"
+		android:layout_gravity="center_horizontal"
+		android:layout_margin="5dip"
+		android:layout_weight="0.3"
+		android:background="@drawable/bg_messages"
+		android:choiceMode="none"
+		android:clickable="false"
+		android:divider="@null"
+		android:dividerHeight="0dip"
+		android:fadingEdge="none"
+		android:paddingBottom="2dip"
+		android:paddingLeft="10dip"
+		android:paddingRight="10dip"
+		android:paddingTop="2dip"
+		android:scrollbarStyle="outsideInset" >
+	</ListView>
+
+</LinearLayout>
