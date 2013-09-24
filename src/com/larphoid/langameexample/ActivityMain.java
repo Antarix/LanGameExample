@@ -449,7 +449,6 @@ public class ActivityMain extends Activity implements OnClickListener, OnColorCh
 			mainwindow.setVisibility(View.VISIBLE);
 			localEvents.clear();
 			clientEvents.clear();
-			System.gc();
 		}
 	};
 }
